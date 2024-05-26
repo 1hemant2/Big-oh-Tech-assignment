@@ -5,7 +5,7 @@ const Form = sequelize.define('Form', {
     uniqueId: {
         type: DataTypes.UUID,
         allowNull: false,
-        primaryKey: true
+        primaryKey: true,
     },
     title: {
         type: DataTypes.STRING,
@@ -15,18 +15,22 @@ const Form = sequelize.define('Form', {
     name: {
         type: DataTypes.STRING,
         allowNull: false,
+        required: true
     },
     email: {
         type: DataTypes.STRING,
         allowNull: false,
+        required: true
     },
     phonenumber: {
         type: DataTypes.INTEGER,
         allowNull: false,
+        required: true
     },
     isGraduate: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
+        required: true
     },
 }, {
     timestamps: true,
