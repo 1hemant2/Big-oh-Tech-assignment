@@ -1,6 +1,6 @@
 `command to setup this project `
 
-https://github.com/1hemant2/Big-oh-Tech-assignment.git
+git clone https://github.com/1hemant2/Big-oh-Tech-assignment.git
 
 npm i 
 
