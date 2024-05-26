@@ -1,0 +1,6 @@
+PORT=port_no (eg.8080)
+DATABASE_NAME=database_name (eg.user)
+DATABASE_USERNAME=user_name (eg.root)
+DATABASE_PASSWORD=password   (eg.12312)
+DATABASE_HOST=name_host_of_database(eg.localhost) 
+DATABASE_DIALECT=name_of_the_dilect_of_database (eg.mysql)
